@@ -1,7 +1,7 @@
 # qc-additions
 
 
-This gem adds some methods to queue_classic queues that I found helpful:
+This gem adds some methods to [queue_classic](https://github.com/ryandotsmith/queue_classic) queues that I found helpful:
 
 * `enqueue_if_not_queued(method, *args)`
 * `job_count(method, *args)`
