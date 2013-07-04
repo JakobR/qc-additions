@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    qc-additions (0.0.1)
+    qc-additions (0.1.0)
       queue_classic (~> 2.2.0)
 
 GEM
