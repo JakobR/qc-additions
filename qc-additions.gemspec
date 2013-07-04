@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
 
   s.require_paths = %w[lib]
 
-  s.add_dependency "queue_classic", "~> 2.1.1"
+  s.add_dependency "queue_classic", "~> 2.2.0"
 end

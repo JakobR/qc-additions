@@ -2,21 +2,21 @@ PATH
   remote: .
   specs:
     qc-additions (0.0.1)
-      queue_classic (~> 2.1.1)
+      queue_classic (~> 2.2.0)
 
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     ansi (1.4.3)
     archive-tar-minitar (0.5.2)
     columnize (0.3.6)
     linecache19 (0.5.12)
       ruby_core_source (>= 0.1.4)
-    minitest (4.4.0)
-    pg (0.14.1)
-    queue_classic (2.1.1)
-      pg (~> 0.14.1)
-    rake (10.0.3)
+    minitest (5.0.6)
+    pg (0.15.1)
+    queue_classic (2.2.0)
+      pg (~> 0.15.1)
+    rake (10.1.0)
     ruby-debug-base19 (0.11.25)
       columnize (>= 0.3.1)
       linecache19 (>= 0.5.11)
