@@ -8,7 +8,7 @@ This gem adds some methods to queue_classic queues that I found helpful:
 * `job_exists?(method, *args)`
 
 
-An index might help to speed up the `job_count` and `job_exists?` queries. Although, I haven't really tested if there is much gain by adding this:
+An index might help to speed up the `job_count` and `job_exists?` queries. Although, I haven't really tested if there is much to gain by adding this:
 
 ```SQL
 CREATE INDEX idx_qc_unlocked_job_count ON queue_classic_jobs (q_name, method, args) WHERE locked_at IS NULL;
