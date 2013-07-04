@@ -1,12 +1,11 @@
 #encoding: UTF-8
 Gem::Specification.new do |s|
   s.name          = "qc-additions"
-  s.version       = "0.0.1"
-  s.date          = "2013-01-12"
+  s.version       = "0.1.0"
   s.description   = "Add some methods to queue_classic to determine whether a job exists or how many times a given job is already queued."
   s.summary       = "Add some methods to queue_classic."
   s.authors       = ["Jakob Rath"]
-  s.email         = "git@jakobrath.eu"
+  s.email         = "mail@jakobrath.eu"
   s.homepage      = "https://github.com/JakobR/qc-additions"
 
   files = []
